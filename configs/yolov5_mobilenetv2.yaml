@@ -1,0 +1,14 @@
+detector:
+  name: yolov5
+  model_path: "resources/models/yolov5nu.pt"
+  confidence: 0.3
+
+reid:
+  name: torchreid
+  model_name: mobilenetv2_x1_0
+
+tracker:
+  max_age: 30
+  n_init: 3
+  nn_budget: 100
+  max_iou_distance: 0.7

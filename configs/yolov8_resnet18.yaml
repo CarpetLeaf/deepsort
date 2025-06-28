@@ -1,0 +1,14 @@
+detector:
+  name: yolov8
+  model_path: "resources/models/yolov8n.pt"
+  confidence: 0.3
+
+reid:
+  name: resnet18
+  model_path: "resources/models/resnet18-reid.pth"
+
+tracker:
+  max_age: 30
+  n_init: 3
+  nn_budget: 100
+  max_iou_distance: 0.7

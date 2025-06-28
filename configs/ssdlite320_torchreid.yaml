@@ -1,0 +1,14 @@
+detector:
+  name: ssd
+  confidence: 0.3
+
+reid:
+  name: torchreid
+  model_name: osnet_x0_25
+
+
+tracker:
+  max_age: 30
+  n_init: 3
+  nn_budget: 100
+  max_iou_distance: 0.7
