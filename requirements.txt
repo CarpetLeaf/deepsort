@@ -1,3 +1,14 @@
 numpy
 opencv-python
 scipy
+torch
+torchvision
+numpy
+opencv-python-headless
+opencv-contrib-python
+pyyaml
+ultralytics
+torchreid
+gdown
+tensorboard
+moviepy
