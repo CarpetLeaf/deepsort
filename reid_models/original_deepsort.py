@@ -1,5 +1,4 @@
 import torch
-import numpy as np
 from .base_reid import BaseReID
 from torchvision import transforms
 from PIL import Image

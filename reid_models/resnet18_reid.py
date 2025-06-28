@@ -1,6 +1,5 @@
 # reid_models/resnet18_reid.py
 import torch
-import numpy as np
 from .base_reid import BaseReID
 from torchvision import models, transforms
 from PIL import Image
