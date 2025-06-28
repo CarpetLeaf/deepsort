@@ -24,6 +24,8 @@ MOT16/
 tmp/
 data/
 resources/
+videos/
+outputs/
 *.egg-info/
 .installed.cfg
 *.egg

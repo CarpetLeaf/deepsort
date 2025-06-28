@@ -50,7 +50,7 @@ def run_tracking(video_path, video_out_path, txt_out_path, display=True, config_
     reid_model = create_reid_model(config.reid, device)
 
     metric = NearestNeighborDistanceMetric(
-        metric=config.tracker.metric,
+        metric="cosine",
         matching_threshold=config.tracker.max_iou_distance,
         budget=config.tracker.nn_budget
     )

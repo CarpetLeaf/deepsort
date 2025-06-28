@@ -26,8 +26,8 @@ for video_file in video_list:
 
     run_tracking(
         video_path=video_path,
-        output_video=output_video,
-        output_txt=output_txt,
+        video_out_path=output_video,
+        txt_out_path=output_txt,
         display=False,
         config_path=config_path
     )
